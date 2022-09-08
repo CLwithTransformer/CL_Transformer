@@ -70,13 +70,19 @@ Werkzeug==1.0.0
 
 We demonstrate the average incremental performance under the Task-free protocol with 500 memory buffer, which is the result of evaluating on all the tasks observed so far after completing each task. The results are curves of accuracy and forgetting after each task. It is observed that the performance of most methods degrades rapidly as new tasks arrive, while our method consistently outperforms the state-of-the-art methods in both accuracy and forgetting throughout the learning.
 
+
+<table>
+    <tr>
+        <td ><center><img src="data/results/ECCV_20split_cifar100_500_classIL_incremental_forgetting.png" ></center></td>
+        <td ><center><img src="data/results/ECCV_cifar100_500_classIL_incremental_accuracy.png"  ></center></td>
+    </tr>
+<table>
+
+<!-- 
 ![ECCV_20split_cifar100_500_classIL_incremental_forgetting](data/results/ECCV_20split_cifar100_500_classIL_incremental_forgetting.png)
 
 ![ECCV_cifar100_500_classIL_incremental_accuracy](data/results/ECCV_cifar100_500_classIL_incremental_accuracy.png)
-
-![ECCV_tinyimageNet_500_classIL_forgetting](data/results/ECCV_tinyimageNet_500_classIL_forgetting.png)
-
-![ECCV_ImagNet100_ClassIL_500_acc](data/results/ECCV_ImagNet100_ClassIL_500_acc.png)
+ -->
 
 ## 📋Conclusion
 
@@ -87,6 +93,7 @@ In this paper, we propose a novel attention-based framework, Contrastive Vision 
 
 If our work is helpful to you, please kindly cite our papers as:
 
+```
 @article{arxiv_contrastive,
 	author = {Wang, Zhen and Liu, Liu and Kong, Yajing and Guo, Jiaxian and Tao, Dacheng},
 	journal = {arXiv preprint arXiv:2207.13516},
@@ -106,7 +113,7 @@ If our work is helpful to you, please kindly cite our papers as:
 	pages = {171-181},
 	title = {Continual Learning With Lifelong Vision Transformer},
 	year = {2022}}
-
+```
 
 
 
