@@ -85,13 +85,32 @@ In this paper, we propose a novel attention-based framework, Contrastive Vision 
 
 
 
+If our work is helpful to you, please kindly cite our papers as:
+
+@article{arxiv_contrastive,
+	author = {Wang, Zhen and Liu, Liu and Kong, Yajing and Guo, Jiaxian and Tao, Dacheng},
+	journal = {arXiv preprint arXiv:2207.13516},
+	title = {Online Continual Learning with Contrastive Vision Transformer},
+	year = {2022}}
+  
+@inproceedings{ECCV22_CL,
+	author = {Wang, Zhen and Liu, Liu and Kong, Yajing and Guo, Jiaxian and Tao, Dacheng},
+	booktitle = {ECCV},
+	title = {Online Continual Learning with Contrastive Vision Transformer},
+	year = {2022}}
+
+@inproceedings{CVPR22_LVT,
+	author = {Wang, Zhen and Liu, Liu and Duan, Yiqun and Kong, Yajing and Tao, Dacheng},
+	booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+	month = {June},
+	pages = {171-181},
+	title = {Continual Learning With Lifelong Vision Transformer},
+	year = {2022}}
 
 
 
 
 
-
-The source code will be made publicly available.
 
 All rights reserved.
 
